@@ -109,3 +109,6 @@ webcolors==25.10.0
 webencodings==0.5.1
 websocket-client==1.9.0
 widgetsnbextension==4.0.15
+seaborn==0.13.2
+dotenv==0.9.9
+pyarrow==25.0.0
