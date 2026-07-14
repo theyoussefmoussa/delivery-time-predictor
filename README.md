@@ -21,12 +21,12 @@
 
 ## Current Status
 
-**Phase 2 — Data Cleaning** (in progress)
+**Phase 3 — EDA** (in progress)
 
 - [x] Phase 1 — Data Understanding
-- [ ] Phase 2 — Data Cleaning
-- [ ] Phase 3 — Feature Engineering
-- [ ] Phase 4 — Exploratory Data Analysis
+- [x] Phase 2 — Data Cleaning
+- [x] Phase 3 — Exploratory Data Analysis
+- [ ] Phase 4 — Feature Engineering
 - [ ] Phase 5 — Modeling
 - [ ] Phase 6 — Evaluation & Deployment
 
@@ -38,20 +38,33 @@ Progress and phase-by-phase notes are documented in [`docs/`](docs/).
 
 ```
 delivery-time-predictor/
-├── assets/                    # Images and banner
+├── assets/
+│   └── banner_image.png
 ├── data/
-│   ├── raw/                   # Original, immutable data
-│   └── processed/             # Cleaned and transformed data
-├── src/                       # Source code (cleaning, features, etc.)
+│   ├── raw/                        # Original, immutable data
+│   └── processed/                  # Cleaned and transformed data
+├── src/                            # Source code (cleaning, features, etc.)
+│   ├── data_cleaning.py
+│   ├── eda/
+│   │   └── univariate_analysis.py
+│   └── utils/
+│       ├── formatting.py
+│       └── visualization_utils.py
 ├── notebooks/
-│   └── 1_data_understanding/  # Exploration notebooks
+│   ├── 1_data_understanding.ipynb
+│   ├── 2_data_cleaning.ipynb
+│   └── 3_univariate_analysis.ipynb
 ├── docs/
-│   └── data_understanding.md  # Phase-by-phase documentation
-├── models/                    # Trained model artifacts
-├── app/                       # Application / deployment code
-├── columns.md                 # Feature and target descriptions
-├── pipelines.md                # Pipeline documentation
+│   ├── data_understanding.md       # Phase-by-phase documentation
+│   ├── data_cleaning.md
+│   └── univariate_analysis.md
+├── models/                         # Trained model artifacts
+├── app/                            # Application / deployment code
+├── columns.md                      # Feature and target descriptions
+├── pipelines.md                    # Pipeline documentation
 ├── requirements.txt
+├── .env.example                    # Template for required environment variables
+├── .gitignore
 ├── main.py
 └── README.md
 ```
