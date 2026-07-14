@@ -21,12 +21,12 @@
 
 ## Current Status
 
-**Phase 4 — Feature Engineering** (in progress)
+**Phase 5 — Modeling** (in progress)
 
 - [x] Phase 1 — Data Understanding
 - [x] Phase 2 — Data Cleaning
 - [x] Phase 3 — Exploratory Data Analysis
-- [ ] Phase 4 — Feature Engineering
+- [x] Phase 4 — Feature Engineering
 - [ ] Phase 5 — Modeling
 - [ ] Phase 6 — Evaluation & Deployment
 
@@ -45,6 +45,7 @@ delivery-time-predictor/
 │   └── processed/                  # Cleaned and transformed data
 ├── src/                            # Source code (cleaning, features, etc.)
 │   ├── data_cleaning.py
+│   ├── feature_engineering.py
 │   ├── eda/
 │   │   └── univariate_analysis.py
 │   │   └── bivariate_analysis.py
@@ -56,11 +57,13 @@ delivery-time-predictor/
 │   ├── 2_data_cleaning.ipynb
 │   └── 3_univariate_analysis.ipynb
 │   └── 4_bivariate_analysis.ipynb
+│   └── 5_feature_engineering.ipynb
 ├── docs/
 │   ├── data_understanding.md       # Phase-by-phase documentation
 │   ├── data_cleaning.md
 │   └── univariate_analysis.md
 │   └── bivariate_analysis.md
+│   └── feature_engineering.md
 ├── models/                         # Trained model artifacts
 ├── app/                            # Application / deployment code
 ├── columns.md                      # Feature and target descriptions
