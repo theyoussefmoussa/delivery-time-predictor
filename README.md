@@ -21,7 +21,7 @@
 
 ## Current Status
 
-**Phase 3 — EDA** (in progress)
+**Phase 4 — Feature Engineering** (in progress)
 
 - [x] Phase 1 — Data Understanding
 - [x] Phase 2 — Data Cleaning
@@ -47,6 +47,7 @@ delivery-time-predictor/
 │   ├── data_cleaning.py
 │   ├── eda/
 │   │   └── univariate_analysis.py
+│   │   └── bivariate_analysis.py
 │   └── utils/
 │       ├── formatting.py
 │       └── visualization_utils.py
@@ -54,10 +55,12 @@ delivery-time-predictor/
 │   ├── 1_data_understanding.ipynb
 │   ├── 2_data_cleaning.ipynb
 │   └── 3_univariate_analysis.ipynb
+│   └── 4_bivariate_analysis.ipynb
 ├── docs/
 │   ├── data_understanding.md       # Phase-by-phase documentation
 │   ├── data_cleaning.md
 │   └── univariate_analysis.md
+│   └── bivariate_analysis.md
 ├── models/                         # Trained model artifacts
 ├── app/                            # Application / deployment code
 ├── columns.md                      # Feature and target descriptions
