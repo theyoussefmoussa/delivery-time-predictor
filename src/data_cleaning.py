@@ -38,6 +38,10 @@ def data_cleaning():
     for col in numeric_columns: 
         df[col] = df[col].astype('uint8') # range 0:255
 
+    # Convert Distance to meter
+    df["Distance_km"] = df["Distance_km"] * 1000
+    df.rename(columns={"Distance_km": "Distance_m"}, inplace=True)
+    
     # save new dataset
     output_path = f"{BASE_PATH}/data/processed/clean_delivery_time.parquet"
     df.to_parquet(
