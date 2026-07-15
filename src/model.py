@@ -6,6 +6,8 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.preprocessing import StandardScaler
 from dotenv import load_dotenv
 import os
+
+import joblib
 load_dotenv()
 BASE_PATH = os.getenv("BASE_PATH")
 def modeling():
@@ -31,6 +33,9 @@ def modeling():
 
     print(f"RMSE: {rmse:.2f} | MAE: {mae:.2f} | R2: {r2:.3f}")
 
+    joblib.dump(model, f"{BASE_PATH}/models/linear_regression.pkl")
+    joblib.dump(scaler, f"{BASE_PATH}/models/scaler.pkl")
+    
     return model, scaler
 
 

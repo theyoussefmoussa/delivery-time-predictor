@@ -21,14 +21,14 @@
 
 ## Current Status
 
-**Phase 5 — Modeling** (in progress)
+**Finished - UnderReview** (in progress)
 
 - [x] Phase 1 — Data Understanding
 - [x] Phase 2 — Data Cleaning
 - [x] Phase 3 — Exploratory Data Analysis
 - [x] Phase 4 — Feature Engineering
 - [x] Phase 5 — Modeling
-- [ ] Phase 6 — Evaluation & Deployment
+- [x] Phase 6 — Evaluation & Deployment
 
 Progress and phase-by-phase notes are documented in [`docs/`](docs/).
 
