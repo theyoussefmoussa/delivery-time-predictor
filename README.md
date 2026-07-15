@@ -27,7 +27,7 @@
 - [x] Phase 2 — Data Cleaning
 - [x] Phase 3 — Exploratory Data Analysis
 - [x] Phase 4 — Feature Engineering
-- [ ] Phase 5 — Modeling
+- [x] Phase 5 — Modeling
 - [ ] Phase 6 — Evaluation & Deployment
 
 Progress and phase-by-phase notes are documented in [`docs/`](docs/).
@@ -46,6 +46,7 @@ delivery-time-predictor/
 ├── src/                            # Source code (cleaning, features, etc.)
 │   ├── data_cleaning.py
 │   ├── feature_engineering.py
+│   ├── model.py
 │   ├── eda/
 │   │   └── univariate_analysis.py
 │   │   └── bivariate_analysis.py
@@ -64,6 +65,7 @@ delivery-time-predictor/
 │   └── univariate_analysis.md
 │   └── bivariate_analysis.md
 │   └── feature_engineering.md
+│   └── model.md
 ├── models/                         # Trained model artifacts
 ├── app/                            # Application / deployment code
 ├── columns.md                      # Feature and target descriptions

@@ -112,3 +112,4 @@ widgetsnbextension==4.0.15
 seaborn==0.13.2
 dotenv==0.9.9
 pyarrow==25.0.0
+scikit-learn==1.7.2
