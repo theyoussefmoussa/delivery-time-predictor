@@ -97,12 +97,15 @@ Full feature documentation available in [`columns.md`](columns.md).
 
 ---
 
-## Contact
+## Contact Team
 
-**Youssef Moussa**
+## Contact Team
+| Name | Role | GitHub | LinkedIn |
+|---|---|---|---|
+| **Youssef Moussa** | Team Leader | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/theyoussefmoussa) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/theyoussefmoussa) |
+| **Aliaa Abdallah** | Member | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/aliaaabdallah) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aliaa-abdallah-624682422) |
+| **Habiba Saad** | Member | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/habebayoussef) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/habiba-saad-6ba769351) |
+| **Youssef Shaban** | Member | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youssefbadwi) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/youssef-shabban-800904277) |
+| **Mostafa Ibrahim** | Member | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/mostafamawazen99-code) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mostafa-ibrahim-9b9737347) |
 
-<p>
-  <a href="https://github.com/theyoussefmoussa"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://linkedin.com/in/theyoussefmoussa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://kaggle.com/theyoussefmoussa"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white" alt="Kaggle"></a>
-</p>
+
