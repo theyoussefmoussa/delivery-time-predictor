@@ -85,6 +85,8 @@ delivery-time-predictor/
 git clone https://github.com/theyoussefmoussa/delivery-time-predictor.git
 cd delivery-time-predictor
 pip install -r requirements.txt
+python3 main.py
+streamlit run app/app.py
 ```
 
 ---
